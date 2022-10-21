@@ -1,0 +1,95 @@
+img {width:3cm;height:3cm;}
+table {width:80%;margin:auto;}
+th#price {cursor:pointer;}
+li {color:rgb(0, 255, 98);}
+
+/*nm19012, ANDERSON LEVI NIETO MOLINA - Grupo de Trabajo #06*/
+button{
+    background-color: #ecf3e7; 
+    color: rgb(16, 17, 17);
+    padding: 30px 90px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+div.center {
+    text-align: center;
+  }
+
+h1{
+    color: rgb(238, 236, 231);
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: rgb(28, 31, 31);
+}
+p{   text-align: center;
+    color: rgb(194, 216, 221);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;;
+}
+span{
+    font-weight: bold;
+}
+
+#datos{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border: 1px solid rgb(0, 0, 0);
+ }
+ th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid rgb(238, 243, 239);
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+ caption {
+    padding: 0.3em;
+    color: rgb(19, 170, 39);
+     background: rgb(2, 133, 24);
+ }
+ th {
+    background: rgb(5, 179, 43);
+ }
+
+ #price{
+    color: rgb(16, 19, 17);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.agregar{
+    border: solid 2px rgb(0, 101, 172);
+    height: 270px;
+    width: 500px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+div{
+    color: white;}
+
+
+/*si chequea muestra los productos sin cheque desaparecen los productos*/
+input#c1:checked ~ table tbody tr.c1 { display: table-row; }
+input#c1:not(checked) ~ table tbody tr.c1 { display: none; }
+input#c2:checked ~ table tbody tr.c2 { display: table-row; }
+input#c2:not(checked) ~ table tbody tr.c2 { display: none; }
+input#c3:checked ~ table tbody tr.c3 { display: table-row; }
+input#c3:not(checked) ~ table tbody tr.c3 { display: none; }
+input#c4:checked ~ table tbody tr.c4 { display: table-row; }
+input#c4:not(checked) ~ table tbody tr.c4 { display: none; }
